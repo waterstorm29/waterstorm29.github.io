@@ -1,0 +1,557 @@
+BODY {
+/*	background-color: #011627;*/
+	background-image: url("new assets/dark blue background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+/*	BACKGROUND-SIZE:1000PX;*/
+	BACKGROUND-ATTACHMENT:FIXED;
+	max-width: 1920px;
+}
+
+.NAV {
+	WIDTH:60%;
+	HEIGHT: 60px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 120px;
+	text-align: center;
+	OVERFLOW:NONE;
+	min-width: 1000px;
+}
+
+.NAV A:LINK {
+	COLOR:RGBA(0,0,0,1);
+	WIDTH:80%;
+	TEXT-DECORATION:NONE;
+	DISPLAY:BLOCK;
+	TEXT-ALIGN:CENTER;
+	PADDING-top:15PX;
+	PADDING-bottom:15PX;
+	padding-left:40px;
+	padding-right: 40px;
+	FONT-SIZE:25PX;
+	FONT-FAMILY: century gothic, slim joe;
+	FONT-WEIGHT:BOLD;
+	TEXT-TRANSFORM:NORMAL;
+	Transition: .2s;
+	
+}
+
+.NAV A:HOVER {
+	Color: white;
+	Transition: .2s;
+}
+
+.NavBar {
+	MARGIN-TOP:0PX;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 10PX;
+	WIDTH:95%;
+	position: fixed;
+	background-color: rgba(46,196,182,0.90);
+	border-radius: 20px;
+	min-width: 1600px;
+	z-index: 1;
+}
+
+.NavBar #IMG1 {
+	FLOAT:RIGHT;
+	MARGIN-RIGHT:50PX;
+	PADDING:10PX;
+	BORDER:2PX SOLID #000;
+	BORDER-RADIUS:100PX;
+	BACKGROUND-COLOR: #fdfffc;
+	TRANSITION: 0.2S;
+}
+
+.NavBar #IMG2 {
+	FLOAT:LEFT;
+	MARGIN-LEFT:50PX;
+	PADDING:10PX;
+	BORDER:2PX SOLID #000;
+	BORDER-RADIUS:100PX;
+	background-image: url("new assets/White.png");
+	TRANSITION: 0.2S;
+}
+
+#rightImage, #leftImage {
+	border-radius: 100%;
+}
+
+#IMG1:hover, #IMG2:hover {
+	transform: scale(1.05);
+	transition: .2s;
+	BORDER-COLOR: #e71d36;
+/*	background-color: rgba(0,0,0,0);*/
+	background-image: url("new assets/white abstract pattern background.jpg");
+	background-size: 500px;
+}
+
+.NavBar .CONTAINER P {
+	FONT-FAMILY: Big John;
+	color: black;
+	FONT-SIZE:40PX;
+	BORDER:2PX SOLID #000;
+	BORDER-RADIUS:20PX;
+	Margin-left: 30%;
+	Margin-right: 30%;
+	padding:10px;
+	text-align: center;
+	BACKGROUND-COLOR: #fdfffc;
+	transition: 0.2s;
+}
+
+.NavBar .CONTAINER P:HOVER {
+	Color: #e71d36;
+	Font-family: Big John;
+	background-color: #fdfffc;
+	border-color: #e71d36;
+	TRANSITION: 0.2S;
+	transform: scale(1.01);
+}
+
+UL {
+	MARGIN:0;
+	PADDING:0;
+	LIST-STYLE:NONE;
+}
+
+LI {
+	FLOAT:LEFT;
+}
+
+
+
+#null01 {
+	height: 220px;
+}
+
+/*
+.whiteBoxes {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+*/
+
+#davidInfoBox {
+	BORDER:2PX SOLID #fff;
+	background-color: rgba(256, 256, 256, 0.2);
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 20px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#portrait {
+	width: 20%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right:50px;
+	margin-left: 10%;
+	float: left;
+	border-radius: 10px;
+	transition: transform .2s;
+}
+
+#portrait:hover {
+	transform: scale(1.05);
+	transition: .2s;
+}
+
+.boxedInfo {
+/*	border: 2px solid #000;*/
+}
+
+.boxedInfo h2, p {
+	font-family: big john;
+	font-size: 30px;
+}
+
+#boxedInfoAnswers {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.boxedInfo p {
+	font-family: big john;
+	font-size: 20px;
+	background-color: white;
+	padding: 10px;
+	margin: 30px;
+	border-radius: 10px;
+	color: black;
+}
+
+.boxedInfo ul {
+	display: inline-block;
+	font-family: big john;
+	font-size: 20px;
+	text-align: left;
+	background-color: white;
+	padding: 20px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+
+.interests {
+	width: 90%;
+	BORDER:2PX SOLID #fff;
+	background-color: rgba(256, 256, 256, 0.2);
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 20px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.interests h2 {
+	font-family: big john;
+	font-size: 30px;
+}
+
+.interests p {
+	font-family: century gothic;
+	color: white;
+	font-size: 16px;
+/*	background-color: white;*/
+	padding: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+
+}
+
+.interests ul, ol {
+	margin-left: 100px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 30px;
+	font-family: century gothic;
+	color: white;
+	font-size: 16px;
+}
+
+.interests img {
+	width: 70%;
+
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+figure {
+	display: center;
+}
+
+figcaption {
+	font-family: Big John;
+	color: white;
+/*	background-color: white;*/
+}
+
+#subtitleInt {
+	font-size: 17px;
+	margin-left: 50px;
+}
+
+.YT01 {
+	text-align: center;
+	
+}
+
+.CONTAINER A {
+	TEXT-DECORATION:NONE;
+}
+
+.TOOLTIP SPAN {
+	DISPLAY:NONE;
+	FONT-SIZE:20PX;
+	FONT-FAMILY: Slim Joe;
+	z-index: 1;
+	position: absolute;
+}
+
+
+.TOOLTIP:HOVER SPAN {
+	DISPLAY:BLOCK;
+	PADDING: 10px;
+	COLOR:#FFF;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: -40px;
+	text-align: center;
+	
+}
+
+.TOOLTIP2 SPAN {
+	DISPLAY:NONE;
+	FONT-SIZE:20PX;
+	FONT-FAMILY: Slim Joe;
+	z-index: 1;
+}
+
+
+.TOOLTIP2:HOVER SPAN {
+	DISPLAY:BLOCK;
+	PADDING: 10px;
+	COLOR:#FFF;
+	POSITION:ABSOLUTE;
+	top: 135PX;
+	text-align: LEFT;
+}
+
+.TOOLTIP3 SPAN {
+	DISPLAY:NONE;
+	FONT-SIZE:20PX;
+	FONT-FAMILY: Slim Joe;
+	z-index: 1;
+}
+
+
+.TOOLTIP3:HOVER SPAN {
+	DISPLAY:BLOCK;
+	PADDING: 10px;
+	COLOR:#FFF;
+	POSITION:relative;
+	top: 135PX;
+	text-align: RIGHT;
+	FLOAT:RIGHT;
+	margin-right: 0;
+}
+
+
+
+@KEYFRAMES SLIDE {
+	0% {LEFT:100%; WIDTH:100%;}
+	5% {LEFT:0%;}
+	25% {LEFT:0%;}
+	30% {LEFT:-100%; WIDTH:100%}
+	30.0001% {LEFT: -100%; WIDTH:0%}
+	100% {LEFT:100%;}
+}
+
+.CITYHALL P {
+	FONT-FAMILY:GEORGIA;
+	BACKGROUND-COLOR:RGBA(255,255,255,.5);
+	COLOR:#000;
+	BORDER:1PX SOLID #000;
+	BORDER-RADIUS:25PX;
+	MARGIN-TOP:400PX;
+}
+
+h1 {
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+h2 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: white;
+	margin-left:50px;
+	border: medium, solid, white;
+}
+
+/*FONT DEFINITION*/
+
+@font-face {
+	font-family: Big John;
+	src: url("new assets/BIG JOHN.otf");
+}
+
+@font-face {
+	font-family: Slim Joe;
+	src: url("new assets/Slim Joe.otf");
+}
+
+/* CONTACT ME webpage */
+
+.FORM1 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.FORM1 fieldset {
+	margin-bottom: 20px;
+	border: 2px dotted white;
+	border-radius: 10px;
+}
+
+.FORM1 hr {
+	height: 2px;
+	color: white;
+	background-color: white;
+}
+
+.FORM1 Legend {
+	font-family: big john;
+	font-size: 30px;
+	color: white;
+}
+
+.FORM1 p {
+	font-family: Century Gothic;
+	color: white;
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+.FORM1 input {
+	width: 90%;
+	height: 30px;
+	margin-left: 30px;
+}
+
+
+#disclaimerContact {
+	font-family: Slim Joe;
+	color: white;
+}
+
+
+
+/*MY VIDEOS webpage*/
+.YouTubeGallery {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.category {
+	BORDER:2PX SOLID #fff;
+	background-color: rgba(256, 256, 256, 0.2);
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+.category h2, u {
+	font-family: Big John, century gothic;
+	text-align: left;
+	color: white;
+}
+
+.category iframe {
+	position: relative;
+	width: 450px;
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.copyrighted video {
+	position: relative;
+	height: 300px;
+	width: 450px;
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#educational01 {
+	float: left;
+	padding: auto;
+	margin-left: 5%;
+	margin-right: 0px;
+	padding-right: 0px;
+/*	display: inline-block;*/
+}
+
+#seeMore {
+	margin-left: 10%;
+}
+
+#seeMore video {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	display: none;
+	border-radius: 10px;
+	max-height: 700px;
+	transition: 0.5s;
+	padding-bottom: 50px;
+}
+
+#seeMore video:hover {
+	transform: scale(1.05);
+	transition: 0.2s;
+}
+
+#seeMore button {
+	color: black;
+	font-family: century gothic;
+	font-size: 20px;
+	padding: 20px;
+	margin: 20px;
+	font-weight: bold;
+	height: auto;
+	width: 200px;
+	border-radius: 10px;
+	background-color: #fdfffc;
+	border-color: black;
+	position: absolute;
+	margin-left: auto;
+	margin-right:auto;
+	left: 0;
+	right: 0;
+	transition: 0.2s;
+}
+
+#seeMore button:hover {
+	color: #e71d36;
+	border-color: #e71d36;
+	background-color: white;
+	transform: scale(1.05);
+	transition: 0.2s;
+}
+
+.TOOLTIP4 SPAN {
+	DISPLAY:NONE;
+	FONT-SIZE:20PX;
+	FONT-FAMILY: Slim Joe;
+	z-index: 1;
+	position: absolute;
+}
+
+
+.TOOLTIP4:HOVER SPAN {
+	DISPLAY:BLOCK;
+	PADDING: 10px;
+	COLOR:#FFF;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: -40px;
+	text-align: center;
+	
+}
+
+#null02 {
+	height: 100px;
+}
